@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import type { Article } from "@/lib/types";
+import type { Article } from "../lib/types";
 
 type ArticleContextType = {
   selectedArticle: Article | null;
