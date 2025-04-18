@@ -54,7 +54,6 @@ function HomePage() {
 
   const handleSelectAction = (article: Article) => {
     localStorage.setItem("selectedArticle", JSON.stringify(article));
-    console.log("Selected Article:", article); // Debug log
     setSelectedArticle(article);
     navigate(`/article/${article.id}`);
   };
